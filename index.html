@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-br">
+
+<head>
+  <meta charset="UTF-8"> <!-- charset é que dá/lê os acentos na página-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mádjan</title>
+  <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+  <a href="./index.html">Início</a>
+  <h1>Bicicletas</h1>
+
+  <!-- estilo dentro do html -->
+  <h1 id="texto">Mádjan</h1>
+
+  <style>
+    h1 {
+      color: green;
+    }
+  </style>
+
+  <script>
+    function mudar() {
+      texto.style.color = "red";
+    }
+    texto.addEventListener("click", mudar);
+  </script>
+
+</body>
+
+
+</html>

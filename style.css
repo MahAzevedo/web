@@ -1,8 +1,16 @@
-html body a {
-  color: blue;
+/* Projeto - Cinema */
+#cinema {
+  color: black;
   text-decoration: none;
+  font-size: 32px;
 }
 
-#texto {
-  color: brown;
+.rj {
+  color: green;
+  font-size: 20px;
+}
+
+.sp {
+  color: green;
+  font-size: 20px;
 }

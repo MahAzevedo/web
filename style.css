@@ -1,0 +1,22 @@
+h1 {
+  background: #8844ee; /* ou #84e */
+  color: rgba(255, 255, 255, 0.5);
+  /* color: rgba(red, green, blue, alpha); */
+  /* alpha é transparência. Valor de alpha vai de 0 a 1  */
+  padding: 20px;
+  border: 4px solid #111;
+  margin: 20px;
+}
+
+div {
+  background: #aaa;
+  width: 140px;
+  height: 80px;
+  padding: 30px;
+  border: 10px solid #111;
+  margin: 40px;
+}
+
+body {
+  margin: 0px;
+}

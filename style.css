@@ -1,23 +1,23 @@
-h1 {
-  background: #8844ee; /* ou #84e */
-  color: rgba(255, 255, 255, 0.5);
-  /* color: rgba(red, green, blue, alpha); */
-  /* alpha é transparência. Valor de alpha vai de 0 a 1  */
-  padding: 20px;
+/* h1 { */
+/* background: #8844ee; ou #84e */
+/* color: rgba(255, 255, 255, 0.5); */
+/* color: rgba(red, green, blue, alpha); */
+/* alpha é transparência. Valor de alpha vai de 0 a 1  */
+/* padding: 20px;
   border: 4px solid #111;
-  margin: 20px;
-}
+  margin: 20px; */
+/* } */
 
-div {
+/* div {
   background: #aaa;
   width: 140px;
   height: 80px;
   padding: 30px;
   border: 10px solid #111;
-  margin: 40px;
-}
+  margin: 40px; 
+} */
 
-body {
+/* body {
   margin: 0px;
   color: seagreen;
   font-size: 30px;
@@ -25,4 +25,26 @@ body {
 
 a {
   color: inherit;
+} */
+
+/* h1 {
+  background: #ddd;
+  width: 300px;
+} */
+span,
+a,
+strong {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+div,
+h1,
+p {
+  border: 1px solid rgba(255, 0, 0, 0.5);
+}
+
+a {
+  padding: 20px;
+  display: inline-block;
+  margin: 10px;
 }

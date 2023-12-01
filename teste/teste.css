@@ -15,7 +15,7 @@ h2 {
   border: 1px solid #e7e7e7;
   border-radius: 4px;
   padding: 20px;
-  margin-bottom: 10px;
+  display: grid;
 }
 
 .preco {
@@ -30,4 +30,11 @@ h2 {
   border-radius: 4px;
   /* display: inline-block; não usar por
   causa do grid */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto; /* 1fr 1fr */
+  gap: 20px;
+  /* justify-content: center; */
 }

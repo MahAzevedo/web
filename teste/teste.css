@@ -28,13 +28,10 @@ h2 {
   color: blue;
   padding: 10px 20px;
   border-radius: 4px;
-  /* display: inline-block; não usar por
-  causa do grid */
 }
 
 .grid {
   display: grid;
   grid-template-columns: auto auto; /* 1fr 1fr */
   gap: 20px;
-  /* justify-content: center; */
 }

@@ -18,9 +18,6 @@ h2 {
   display: grid;
 }
 
-.preco {
-}
-
 .comprar {
   text-decoration: none;
   border: 1px solid blueviolet;

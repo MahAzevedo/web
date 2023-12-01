@@ -12,11 +12,10 @@ p {
 
 h1 {
   font-size: 48px;
-  line-height: 1px;
+  line-height: 1;
 }
 
-p,
-span {
+p {
   font-size: 20px;
 }
 
@@ -30,6 +29,7 @@ span {
   font-size: 20px;
   text-align: center;
 }
+
 .preco {
   background: #ddd;
   padding: 5px 10px;

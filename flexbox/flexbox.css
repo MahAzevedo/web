@@ -1,13 +1,19 @@
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  height: 100vh; /* vh view hight, que é para ter 100 porcento da tela */
+h1 {
+  margin: 0px;
+  padding: 10px;
+  background: lightblue;
 }
 
-h2 {
-  background: #e7e7e7;
-  border: 1px solid #d7d7d7;
-  padding: 20px;
-  margin: 0px;
+.index1 {
+  position: relative;
+  background: greenyellow;
+  top: 40px;
+  z-index: 2;
+}
+
+.index2 {
+  position: absolute;
+  background: lightcoral;
+  top: 60px;
+  z-index: 3;
 }

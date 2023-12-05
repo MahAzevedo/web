@@ -1,0 +1,27 @@
+body {
+  background-color: #f7f7f7;
+  /* color: #c6c6c6; */
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1000vh;
+  margin: 0px;
+}
+
+h1 {
+  color: black;
+  font-size: 64px;
+  text-align: center;
+  padding: 40px;
+}
+.grid {
+}
+.itens {
+  text-decoration: none;
+  display: flex;
+}
+
+.verMais {
+  background: #ee2211;
+  text-decoration: none;
+  padding: 20px 40px;
+  margin: 10px;
+}

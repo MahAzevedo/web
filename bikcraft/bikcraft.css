@@ -9,8 +9,8 @@ h1 {
   color: black;
   font-size: 64px;
   text-align: center;
-  /* padding: 40px; */
 }
+
 .navFlexbox {
   display: flex;
   justify-content: center;
@@ -30,4 +30,9 @@ h1 {
   text-decoration: none;
   padding: 20px 40px;
   margin: 10px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

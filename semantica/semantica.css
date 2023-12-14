@@ -96,3 +96,40 @@ h2 {
   color: #555;
   margin: 16px 0;
 } */
+
+/* ------------------ */
+
+/* primeiro elemento */
+/* .lista-1 li:first-child {
+  background: #caf;
+} */
+.lista-1 li:first-child {
+  background: #f48fb1;
+}
+p:first-child {
+  background-color: #f8bbd0;
+}
+/* último elemento */
+.lista-1 li:last-child {
+  background: #cfa;
+}
+
+/* terceiro elemento */
+.lista-1 li:nth-child(3) {
+  background: #fda;
+}
+
+/* elementos ímpares */
+.lista-2 li:nth-child(odd) {
+  background: #cfa;
+}
+
+/* elementos pares */
+.lista-2 li:nth-child(even) {
+  background: #adf;
+}
+
+/* de 4 em 4 */
+.lista-2 li:nth-child(4n) {
+  background: #caf;
+}
